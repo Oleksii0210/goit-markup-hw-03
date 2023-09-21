@@ -16,10 +16,24 @@ body {
     color:#434455;
 }
 
+h1,h2,h3,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
 
 .page-navigation {
-    
+    display: flex;
+    align-items: center;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
@@ -44,8 +58,22 @@ body {
     color: #404bbf;
     }
                          /*menu*/
+
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
 .menu-item {
-    
+    display: flex;
+    gap:40px;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -61,6 +89,7 @@ body {
 .menu-link:hover,
 .menu-link:focus {
     color:#404bbf;
+    text-decoration: underline;
 }
 
 .address{
@@ -68,12 +97,15 @@ body {
 }
 
 .address-item {
-    
+    display: flex;
+    gap:50px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .address-link {
     color:#434455;
@@ -82,13 +114,13 @@ body {
 .address-link:hover,
 .address-link:focus {
     color:#404bbf;
-}
+    }
 
                         /*section-one*/
 .section-one-fon{
     text-align: center;
     background-color: #2E2F42;
-    
+    padding: 188px 0;
 }
 
 .section-one-title {
@@ -106,13 +138,21 @@ body {
 }
 
 .section-one-fon-button {
+    display: block;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap:10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rdpa(0, 0, 0, 0.15);
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-   
+    min-width: 169px;
+    height: 56px;
+    border: none;
     cursor: pointer;
     background-color: #4D5AE5;
 }
@@ -145,6 +185,9 @@ body {
     color:#2E2F42;
 }
 
+.section-two-list{
+    display: flex;
+}
 .section-two-card {
     font-size: 20px;
     font-style: normal;
@@ -205,6 +248,12 @@ body {
     color:#434455;
 }
                       /*section-four*/
+.container-items{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .section-four-fon{
     background-color: #FFF;
     color:#434455;
@@ -219,7 +268,13 @@ body {
     color:#434455;
     text-transform: capitalize;
     text-align: center;
-    
+}
+
+.section-four-link{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .section-four-card {
@@ -229,6 +284,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    margin-bottom: 8px;
 }
 
 .section-four-text {
