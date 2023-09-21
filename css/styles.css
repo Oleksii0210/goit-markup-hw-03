@@ -302,7 +302,9 @@ img {
 }
 
 .footer-conteiner{
-    display: flex;
+    display:inline-block;
+    margin-bottom: 16px;
+    padding: 100px 0 100px;
 }
 .footer-fon-link {
     color:#4D5AE5;
