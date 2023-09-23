@@ -327,7 +327,6 @@ img {
 .footer-fon{
     background-color: #2E2F42;
     padding: 100px 0 100px;
-    display:inline-block;
 }
 
 .footer-fon-link {
@@ -354,4 +353,5 @@ img {
 
 .footer-logo {
     color:#F4F4FD;
+    display:inline-block;
 }
