@@ -83,8 +83,6 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-    
 }
 
 .menu-link {
@@ -109,9 +107,9 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /*
-    margin-left: 332px;*/
+    margin-left: 332px;
 }
+
 .address-link {
     color:#434455;
 }
@@ -207,7 +205,7 @@ img {
 .section-two-list{
     display: flex;
     gap:24px;
-    width: ;
+    padding-left: 0;
 }
 .section-two-card {
     font-size: 20px;
